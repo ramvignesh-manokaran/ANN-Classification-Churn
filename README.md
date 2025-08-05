@@ -34,3 +34,10 @@ pip install ipykernel
  streamlit run app.py
  ```
  4. Also can test the deployed app at https://ann-classification-churn-ukasjudpgdbtwy8gc5yd3h.streamlit.app/
+
+7. ANN Regression:
+ 1. Execute 'salaryregression.ipynb' to save encoders, scalers and training the model.
+ 2. Run below command to execute the model in streamlit app 
+ ```bash
+ streamlit run streamlit_regression.py
+ ```
