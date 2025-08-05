@@ -25,12 +25,12 @@ pip install -r requirements.txt
 pip install ipykernel
 ```
 
-6. Execute 'experiments.ipynb' to save encoders, scalers and training the model.
-
-7. Execute 'prediction.ipynb' for prediction.
-
-8. Run below command to execute the model in streamlit app 
-```bash
-streamlit run app.py
-```
-9. Also can test the deployed app at https://ann-classification-churn-ukasjudpgdbtwy8gc5yd3h.streamlit.app/
+6. ANN Classification:
+  
+ 1. Execute 'experiments.ipynb' to save encoders, scalers and training the model.
+ 2. Execute 'prediction.ipynb' for prediction.
+ 3. Run below command to execute the model in streamlit app 
+ ```bash
+ streamlit run app.py
+ ```
+ 4. Also can test the deployed app at https://ann-classification-churn-ukasjudpgdbtwy8gc5yd3h.streamlit.app/
