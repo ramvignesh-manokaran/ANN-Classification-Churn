@@ -2,7 +2,7 @@
 
 1. This project will be running in CPU since we have small dataset.
 
-## Setting Up environment
+## Setting Up environment for local environment
 
 1.Run below command to create python environment
  ```bash
@@ -25,7 +25,9 @@ pip install -r requirements.txt
 pip install ipykernel
 ```
 
-6. ANN Classification:
+## Running models
+
+ANN Classification:
   
  1. Execute 'experiments.ipynb' to save encoders, scalers and training the model.
  2. Execute 'prediction.ipynb' for prediction.
@@ -35,7 +37,7 @@ pip install ipykernel
  ```
  4. Also can test the deployed app at https://ann-classification-churn-ukasjudpgdbtwy8gc5yd3h.streamlit.app/
 
-7. ANN Regression:
+ANN Regression:
  1. Execute 'salaryregression.ipynb' to save encoders, scalers and training the model.
  2. Run below command to execute the model in streamlit app 
  ```bash
